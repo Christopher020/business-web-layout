@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #0078e7;
+}
+
+#work {
+    height: 50vh;
+    width: 100%;
+    /* background-image: url(/img/greek-vase.png); */
+    z-index: -1;
+}
+
+#work .left-column2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8em;
+    margin-left: 8em;
+}
+
+#work .left-column2 p {
+    color: #7B7B7B;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .1em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#work .left-column2 h2 {
+    font-size: 58px;
+    font-weight: 700;
+    width: 10em;
+    line-height: 70px;
+    margin-top: 0;
+    margin-bottom: .2em;
+}
+
+#work .left-column2 .line {
+    width: 8em;
+    height: 2em;
+}
+
+#work .right-column2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8em;
+    margin-right: 5em;
+    font-size: 12px;
+}
+
+#work hr {
+    text-align: center;
+    margin-right: 6em;
+    margin-top: 7em;
+}
+
+#portfolio .view {
+    width: 100em;
+    margin-left: 13.5em;
+    margin-top: 8em;
+    display: flex;
+    /* background-color: black; */
+
+}
+
+#portfolio .pro1 img {
+    width: 400px;
+    height: 230px;
+    margin-right: 1.5em;
+    border-radius: 10px;
+    box-shadow: 1px 1px #ccc;
+    transition: .3s ease transform;
+    display: inline-block;
+}
+
+#portfolio .pro1 img:hover {
+    transform: scale(1.1);
+}
+
+#portfolio .pro2 img {
+    width: 25em;
+    height: 230px;
+    margin-right: 1.5em;
+    border-radius: 10px;
+    box-shadow: 1px 1px #ccc;
+    transition: .3s ease transform;
+}
+
+#portfolio .pro2 img:hover {
+    transform: scale(1.1);
+}
+
+#portfolio .pro3 img {
+    width: 355px;
+    height: 230px;
+    margin-right: 1.5em;
+    border-radius: 10px;
+    box-shadow: 1px 1px #ccc;
+    transition: .3s ease transform;
+}
+
+#portfolio .pro3 img:hover {
+    transform: scale(1.1);
+}
+
+#portfolio .view1 {
+    width: 100em;
+    margin-left: 13.5em;
+    margin-top: 1em;
+    display: flex;
+    /* background-color: purple; */
+}
+
+#portfolio .pro4 img {
+    width: 25em;
+    height: 230px;
+    margin-right: 1.5em;
+    border-radius: 10px;
+    box-shadow: 1px 1px #ccc;
+    transition: .3s ease transform;
+}
+
+#portfolio .pro4 img:hover {
+    transform: scale(1.1);
+}
+
+#portfolio .pro5 img {
+    width: 400px;
+    height: 230px;
+    margin-right: 1.5em;
+    border-radius: 10px;
+    box-shadow: 1px 1px #ccc;
+    transition: .3s ease transform;
+}
+
+#portfolio .pro5 img:hover {
+    transform: scale(1.1);
+}
+
+#portfolio .pro6 img {
+    width: 355px;
+    height: 230px;
+    margin-right: 1.5em;
+    border-radius: 10px;
+    box-shadow: 1px 1px #ccc;
+    transition: .3s ease transform;
+}
+
+#portfolio .pro6 img:hover {
+    transform: scale(1.1);
+}
+
+/* Pro1 page */
+
+/* pro-her section */
+
+#pro-hero {
+    height: 50vh;
+}
+
+#pro-hero .pro {
+    /* flex-basis: 100%; */
+    width: 100%;
+    height: 50vh;
+    margin-top: -8em;
+    background-image: url(/img/edited.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    
+    /* overflow: visible; */
+}
+
+/* #pro-hero .pro {
+
+} */
+
+#pro-hero .pro::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: #DD6DBE;
+    opacity: .2;
+    z-index: -1;
+}
+/* pro-her section end */
+
+/* info section */
+
+#info {
+    width: 100%;
+    height: 40vh;
+    margin-top: 4em;
+}
+
+#info .info p {
+    padding: 0 80px;
+    font-size: 15px;
+}
+
+/* info section end */
